@@ -1,0 +1,531 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="">
+
+		<title>Título</title>
+		<meta name="description" content="descripción de la web, se recomienda 90 caracteres">
+        <meta name="keywords" 	 content="palabras clave, separadas, por comas">
+
+        <link href="style/normalize.css" rel="stylesheet">
+        <link href="style/main.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <header>
+            <div class="top-">
+                <div class="top-bar-left">
+                    <ul>
+                        <li>HOY ES NOTICIA:</li>             
+                        <li><a href=""> Guerra en el PP</a></li>
+                        <li><a href="">Conflicto Ucrania</a></li>
+                        <li><a href="">Rusia</a></li>
+                    </ul>
+                </div>
+               
+                <div class="top-bar-right">
+                    <ul> 
+                        <li><a href="">MALLORCA</a></li>
+                        <li><a href="">MENORCA</a></li>
+                        <li><a href="">IBIZA Y FORMENTERA</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="title">
+                <div class="hamburguer">
+                    <svg viewBox="0 0 24 24">
+                        <path fill="white" d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
+                    </svg>       
+                </div>
+                <div class="trade-mark">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 153 25">
+                        <path d="M137.96 7.01c-2.93.13-3.88 1.95-3.88 1.95V7.21h-6.9v3.81h.81v9.39h-.92v3.92h8.14v-3.92h-1.13V15.1s-.43-2.22 2.27-2.22c.68 0 1.62.26 1.62.26l-.01-6.13zM91.63 1.17v4.02h1.52v15.06h-1.52v4.03h8.96v-3.92h-1.3V15.2h3.46v5.05h-1.3v4.03h9.28v-4.03h-1.62V5.09h1.62V1.17h-9.39v3.92h1.41v5.16h-3.46V5.09h1.3V1.17zm53.67 20.07c-1.02 0-.97-.88-.97-.88v-2.48s.11-1.08 1.02-1.08c.97 0 .97 1.08.97 1.08v2.48s.06.88-1.02.88m6.52-.83v-8.36s.49-5.62-6.82-5.62c-4.13 0-5.91 1.39-5.91 1.39v4.28s2.05-1.39 4.48-1.39c2.7 0 2.64 1.39 2.64 1.39v2.53s-1.24-1.08-3.1-1.08c-5.21 0-4.99 5.57-4.99 5.57s-.33 5.88 4.89 5.88c1.9 0 3.2-1.5 3.2-1.5v.83h6.63V20.4l-1.02.01zm-34.27-7.79s.06-1.6 1.19-1.6c1.19 0 1.24 1.6 1.24 1.6v6.65s-.06 1.24-1.19 1.24-1.24-1.24-1.24-1.24v-6.65zm1.21-5.83c-6.04 0-7.66 4.02-7.66 9.13 0 4.39 1.78 8.82 7.66 8.82 6.14 0 7.66-4.18 7.66-8.82 0-5-1.56-9.13-7.66-9.13M.36 1.02h9.77v3.94h-1.5v13.23s-.08 2.34 1.95 2.34c0 0 2.26.22 2.26-2.34.08 0 0-12.13 0-12.13s-.3-1.1-1.8-1.1V1.02h6.92v3.94s-1.58.15-1.58 1.02c.08 0 0 13.08 0 13.08s.45 5.19-5.71 5.77c0 0-8.57 1.24-8.5-6.72-.08 0 0-13.15 0-13.15H.37V1.02zM18.85.91v3.98h.75v15.52h-.97v3.92h8.14v-3.92h-1.08V.91zm9.06 2.99v3.3h-1.08v3.82h1.03v8.62s-.9 2.62 1.4 4.07c2.07 1.31 6.47-.16 6.47-.16v-3.77s-1.03.52-1.72-.16c-.26-.25-.22-.88-.22-.88V11h2.11V7.2h-2.11V2.4l-5.88 1.5zm8.95 3.31v3.81h.97v9.39h-.97v3.92H45v-3.92h-1.02V7.21zm0-3.87c0-1.62 1.62-2.94 3.61-2.94 1.99 0 3.61 1.32 3.61 2.94 0 1.62-1.62 2.94-3.61 2.94-1.99 0-3.61-1.32-3.61-2.94m9 3.87v3.82h.81v9.39h-.92v3.92h8.14v-3.92h-1.13v-8.36s-.06-1.08.92-1.08c1.02 0 1.02 1.08 1.02 1.08v12.27h7.23v-3.92H60.8v-8.36s.11-1.08 1.02-1.08c.97 0 1.02 1.08 1.02 1.08v12.27h6.9V20.4h-.92V10.35s-.06-3.97-4.37-3.97c-2.86 0-3.99 1.91-3.99 1.91s-1.19-1.96-3.51-1.96c-3.18 0-4.21 2.63-4.21 2.63V7.21h-6.88zm31.5 14.03c-1.02 0-.97-.88-.97-.88v-2.48s.11-1.08 1.02-1.08c.97 0 .97 1.08.97 1.08v2.48c.01 0 .06.88-1.02.88m6.52-.83v-8.36s.49-5.62-6.82-5.62c-4.13 0-5.91 1.39-5.91 1.39v4.28s2.05-1.39 4.48-1.39c2.7 0 2.64 1.39 2.64 1.39v2.53s-1.24-1.08-3.1-1.08c-5.21 0-4.99 5.57-4.99 5.57S69.86 25 75.08 25c1.9 0 3.19-1.49 3.19-1.49v.83h6.63v-3.92l-1.02-.01z"></path>
+                    </svg>                    
+                </div>
+                <div class="login-menu">
+                    <a href="">
+                        <div class="login">
+                            <span>Iniciar sesión</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.05 6.6L5.99 5.54c3.57-3.46 9.27-3.37 12.73.19s3.37 9.27-.19 12.73-9.27 3.37-12.73-.19c-.1-.1-.2-.21-.3-.32l1.06-1.06c2.7 3.14 7.43 3.51 10.58.81s3.51-7.43.81-10.58-7.43-3.51-10.58-.81c-.11.09-.22.19-.32.29z"></path><path d="M5.86 12.29H0v-1.5h5.86M12.5 18c1.01 0 1.99-.26 2.86-.77.86-.47 1.6-1.15 2.14-1.97-.01-.52-.33-.99-.94-1.42-.53-.37-1.21-.66-2.04-.9-.75-.2-1.42-.31-2.03-.31s-1.28.1-2.03.31c-.83.23-1.5.53-2.02.9-.61.43-.93.91-.94 1.42.54.82 1.28 1.5 2.14 1.97.91.51 1.86.77 2.86.77zm0-11c-.44 0-.85.11-1.24.35A2.563 2.563 0 0010 9.54c0 .45.11.87.34 1.26.23.39.53.71.92.94a2.4 2.4 0 002.48 0c.39-.23.69-.54.92-.94.23-.39.34-.81.34-1.26 0-.45-.11-.87-.34-1.26-.22-.39-.54-.71-.92-.93A2.4 2.4 0 0012.5 7z"></path><path d="M3.68 8.61v5.87h-1.5V8.61"></path></svg>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="new-member">
+                            <span>Regístrate</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="scroller">        
+            </div>
+            
+            <ul class="bar-menu">
+                <li class="element home"><a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 4l8 7.77-1.5 1.46-6.5-6.3-6.49 6.3L4 11.77 12 4zM6.29 19v-4.98L12 8.61l5.71 5.4V19h-4.08v-4.53h-3.26V19H6.29z" fill-rule="evenodd" clip-rule="evenodd"></path></svg></a></li>                                   
+                <li class="element uppercase"><a href=""></a><h4>NOTICIAS</h4></a></li>
+                <li class="element uppercase"><a href=""></a><h4>DEPORTES</h4></a></li>
+                <li class="element uppercase"><a href=""></a><h4>OPINIÓN</h4></a></li>
+                <li class="element uppercase"><a href=""></a><h4>XALOC</h4></a></li>
+                <li class="element uppercase"><a href=""></a><h4>PARTICIPA</h4></a></li>
+                <li class="element uppercase"><a href=""></a><h4>OCIO</h4></a></li>
+                <li class="element uppercase"><a href=""></a><h4>VIPS</h4></a></li>
+                <li class="element uppercase"><a href=""></a><h4>GUÍA ÚTIL</h4></a></li>
+                <li class="element uppercase"><a href=""></a><h4>MONOGRÁFICOS</h4></a></li>  
+                <li class="element search"><a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><path d="M195.55 173.79l-41.22-41.22c9.94-14.34 14.9-30.32 14.9-47.95 0-11.47-2.22-22.42-6.67-32.88-4.45-10.45-10.46-19.47-18.03-27.04s-16.58-13.59-27.04-18.03C107.03 2.22 96.08 0 84.62 0 73.16 0 62.2 2.22 51.74 6.67 41.28 11.11 32.27 17.13 24.7 24.7c-7.58 7.57-13.58 16.59-18.03 27.04C2.22 62.2 0 73.15 0 84.62c0 11.46 2.22 22.42 6.67 32.88 4.45 10.45 10.46 19.47 18.03 27.04 7.57 7.56 16.59 13.58 27.04 18.03 10.46 4.44 21.42 6.67 32.87 6.67 17.63 0 33.62-4.98 47.96-14.91l41.22 41.1c2.89 3.05 6.49 4.58 10.82 4.58 4.25 0 7.87-1.51 10.87-4.51 3.01-3 4.51-6.63 4.51-10.88s-1.47-7.86-4.44-10.83zm-72.89-51.13c-10.54 10.53-23.22 15.8-38.04 15.8s-27.5-5.26-38.04-15.8c-10.54-10.54-15.81-23.22-15.81-38.04s5.27-27.51 15.81-38.04c10.54-10.53 23.21-15.81 38.04-15.81s27.5 5.28 38.04 15.81c10.54 10.53 15.81 23.22 15.81 38.04s-5.28 27.5-15.81 38.04z"></path></svg></a></li>
+            </ul>
+        </header>
+
+        <main>
+            <div class="banner-top">
+                <a href=""><img src="/img/pricipal ad.png" alt=""></a>
+            </div>
+            
+            <div class="desktop-one-column mobile-one-column">
+                <div class="column">
+                    <div class="news">
+                        <div class="news-image">
+                            <a href=""><img src="img/portada.jpg" alt=""></a>
+                        </div>                    
+                        <div class="news-tag uppercase">
+                            <a href=""><h4>GUERRA RUSIA-UCRANIA</h4></a>
+                        </div>
+                        </div>
+                        <div class="news-title">
+                            <a href=""><h1>Las fuerzas rusas toman el control de la central nuclear de Chernóbil</h1></a>
+                        </div>
+                        <div class="news-description">
+                            </a><p>Según Ucrania, en caso de que sufra daños la instalación, el material radioactivo podría extenderse también por países de la Unión Europea.</p></a>
+                        </div>
+                        <div class="news-author">
+                            <a href=""></a><span>Alicia Mateos</span></a>
+                        </div>                    
+                    </div>
+                </div>
+                <div class="desktop-four-columns mobile-one-column">                    
+                    <div class="column">
+                        <div class="news">
+                            <div class="news-image">
+                                <a href=""><img src="img/1colportada.jpg" alt=""></a>
+                            </div>
+                            <div class="news-title">
+                                <a href=""><h4>El ejército ruso invade Ucrania por tierra, mar y aire.</h4></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="news">
+                            <div class="news-image">
+                                <a href=""><img src="img/2colportada.jpg" alt=""></a>
+                            </div>
+                            <div class="news-title">
+                                <a href=""><h4>Último parte de guerra en Ucrania: 40 muertos y decenas de heridos</h4></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="news">
+                            <div class="news-image">
+                                <a href=""><img src="img/3col.portada.png" alt=""></a>
+                            </div>
+                            <div class="news-title">
+                                <a href=""><h4>Los vídeos del bombardeo de Rusia y el terror de los ucranianos</h4></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="news">
+                            <div class="news-image">
+                                <a href=""><img src="/img/colapso.png" alt=""></a>
+                            </div>
+                            <div class="news-title">
+                                <a href=""><h4>El pánico se apodera de Kiev: Colapso en las carreteras para huir de la guerra</h4></a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="four-columns">                    
+                    <div class="column">
+                        <div class="news">
+                            <div class="news-image">
+                                <a href=""><img src="img/detenidos.jpg" alt=""></a>
+                            </div>
+                            <div class="news-tag uppercase">
+                                <a href=""><h4>GUERRA RUSIA-UCRANIA</h4></a>
+                            </div>
+                            <div class="news-title">
+                                <a href=""><h4>Las autoridades de Rusia detienen a más de 650 personas en las protestas contra la invasión de Ucrania</h4></a>
+                            </div>
+                            <div class="new-author">
+                                <a href=""><span>Alicia Mateos</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="news">
+                            <div class="news-image">
+                                <a href=""><img src="img/letonia no.jpg" alt=""></a>
+                            </div>
+                            <div class="news-tag uppercase">
+                                </a><h4>GUERRA RUSIA-UCRANIA</h4></a>
+                            </div>
+                            <div class="news-title">
+                                <a href=""><p>Letonia, Lituania y Estonia no quieren ser los siguientes</p></a>
+                            </div>
+                            <div class="news-author">
+                                <a href=""><span>Antoni Agüera</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="news">
+                            <div class="news-image">
+                                <a href=""><img src="img/conflicto en directo.png" alt=""></a>
+                            </div>
+                            <div class="news-tag uppercase">
+                                <a href=""><h4>GUERRA RUSIA-UCRANIA</h4></a>
+                            </div>
+                            <div class="news-title">
+                                <a href=""><p>Rusia-Ucrania | Última hora del conflicto, en directo</p></a>
+                            </div>
+                            <div class="news-author">
+                                <a href=""><span>Redacción Digital</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="news">
+                            <div class="news-image">
+                                <a href=""><img src="img/porque.jpg" alt=""></a>
+                            </div>
+                            <div class="news-tag uppercase">
+                                <a href=""><h4>GUERRA RUSIA-UCRANIA</h4></a>  
+                            </div>
+                            <div class="news-title">
+                                <a href=""><p>¿Por qué Rusia ha invadido Ucrania?</p></a>
+                            </div>
+                            <div class="news-author">
+                                <a href=""><span>Antoni Agüera</span></a>
+                            </div>
+                        </div>
+                    </div>   
+                </div>    
+            </div>
+            <div class="desktop-two-columns-aside mobile-one column">
+                <div class="column">
+                    <div class="news">
+                        <div class="news-image">
+                            <a href=""><img src="img/1col.jpg" alt=""></a>
+                        </div>
+                        <div class="news-tag uppercase">
+                            <a href=""><h4>GUERRA RUSIA-UCRANIA</h4></a>
+                        </div>
+                        <div class="news-title">
+                            <a href=""><h1>Sánchez anuncia que tomará medidas para mitigar el impacto de la guerra en la energía y la economía española</h1></a>
+                        </div>         
+                        <div class="news-description">
+                            <p>El presidente del Gobierno ha defendido la paz y ha informado que este jueves por la noche se volverá a reunir el Consejo Europeo para dar una respuesta coordinada.</p>
+                        </div>
+                        <div class="news-author">
+                            <a href=""><span>Alicia Mateos</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="four-columns">                    
+                    <div class="column">
+                        <div class="news">
+                            <div class="news-image">
+                                <a href=""><img src="img/1col4col.jpg" alt=""></a>
+                            </div>
+                            <div class="news-title">
+                                <a href=""><p>Así ha sido la comparecencia de Sánchez tras la reunión del Consejo de Seguridad Nacional</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="news">
+                            <div class="news-image">
+                                <a href=""><img src="img/2col4col.jpg" alt=""></a>
+                            </div>
+                            <div class="news-title">
+                                <a href=""><p>Biden anuncia que los aliados «responderán de manera unida y decisiva»</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="news">
+                            <div class="news-image">
+                                <a href=""><img src="img/3col4col.jpg" alt=""></a>
+                            </div>
+                            <div class="news-title">
+                                <a href=""><p>La UE reacciona: «Putin pagará por la agresión a Ucrania»</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="news">
+                            <div class="news-image">
+                                <a href=""><img src="img/4col4col.jpg" alt=""></a>
+                            </div>
+                            <div class="news-title">
+                                <a href=""><p>La OTAN pone en alerta a aviones de guerra y aumenta la presencia de tropas</p></a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="destop-two-columns">                    
+                    <div class="column">
+                        <div class="news">
+                            <div class="news-image">
+                                <a href=""><img src="img/1col2col.jpg" alt=""></a>
+                            </div>
+                            <div class="news-tag uppercase">
+                                <a href=""><h4>GUERRA RUSIA-UCRANIA</h4></a>
+                            </div>
+                            <div class="news-title">
+                                <a href=""><p>La «lógica hipócrita» de Putin dinamita la legalidad internacional, según un experto de la UIB</p></a>
+                            </div>
+                            <div class="news-author">
+                                <a href=""><span>Antoni Agúera</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="news">
+                            <div class="news-image">
+                                <a href=""><img src="img/2col2col.jpg" alt=""></a>
+                            </div>
+                            <div class="news-tag uppercase">
+                                <a href=""><h4>GUERRA RUSIA-UCRANIA</h4></a>
+                            </div>
+                            <div class="news-title">
+                                <a href=""><p>Estos son los productos que se encarecerán por la guerra</p></a>
+                            </div>
+                            <div class="news-author">
+                                <a href=""><span>Alicia Mateos</span></a>
+                            </div>
+                        </div>
+                    </div>               
+                </div>
+                
+                <div class="aside">
+                    <div class="aside image">
+                        <a href=""><img src="/img/aside1.png" alt=""></a>
+                    </div>
+                </div>                
+            </div>
+
+            <div class="two-columns-aside">
+                <div class="one-column">
+                    <div class="news">
+                        <div class="news-image">
+                            <a href=""><img src="img/" alt=""></a>
+                        </div>
+                        <div class="news-type">
+                            <a href=""><h4>LOCAL</h4></a>
+                        </div>                
+                        <div class="news-description">
+                            <a href=""><p></p></a>
+                        </div>
+                        <div class="news-author">
+                            <a href=""><span></span></a>
+                        </div>
+                    </div>        
+                </div>
+                <div class="two-columns">                    
+                    <div class="column">
+                        <div class="news">
+                            <div class="news-image">
+                                <a href=""><img src="img/1col2col.jpg" alt=""></a>
+                            </div>
+                            <div class="news-type">
+                                <a href=""><h4>GUERRA RUSIA-UCRANIA</h4></a>
+                            </div>
+                            <div class="news-title">
+                                <a href=""><p>La «lógica hipócrita» de Putin dinamita la legalidad internacional, según un experto de la UIB</p></a>
+                            </div>
+                            <div>
+                                <a href=""><span>Antoni Agúera</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="news">
+                            <div class="news-image">
+                                <a href=""><img src="img/2col2col.jpg" alt=""></a>
+                            </div>
+                            <div class="news-type">
+                                <a href=""><h4>GUERRA RUSIA-UCRANIA</h4></a>
+                            </div>
+                            <div class="news-title">
+                                <a href=""><p>Estos son los productos que se encarecerán por la guerra</p></a>
+                            </div>
+                            <div>
+                                <a href=""><span>Alicia Mateos</span></a>
+                            </div>
+                        </div>
+                    </div>               
+                </div>
+                <div class="aside">
+                    <div class="aside image">
+                        <a href=""><img src="img/aside2.png" alt=""></a>
+                    </div>
+                </div>  
+            </div>
+
+
+
+<!-- 
+                <div class="four-columns">                    
+                    <div class="column">
+                        <div class="news">
+                            <div class="news-image">
+                                <a href=""><img src="img/4col1.jpg" alt=""></a>
+                            </div>
+                            <div class="news-title">
+                                <a href=""><h3>4 equipos Españoles se jjuegan el pase esta noche</h3></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="news">
+                            <div class="news-image">
+                                <a href=""><img src="img/4col2.jpg" alt=""></a>
+                            </div>
+                            <div class="news-title">
+                                <a href=""><h3>Tour por Europa del Barça</h3></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="news">
+                            <div class="news-image">
+                                <a href=""><img src="img/4col4.jpg" alt=""></a>
+                            </div>
+                            <div class="news-title">
+                                <a href=""><h3>La noticia es de ayer, no se que titular tenía</h3></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="news">
+                            <div class="news-image">
+                                <a href=""><img src="img/4col4col.jpg" alt=""></a>
+                            </div>
+                            <div class="news-title">
+                                <a href=""><h3>Igual que las 3 anteriores, el titular es una icónita</h3></a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+
+
+
+
+
+
+
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="three-columns">                
+                <div class="column">
+                    <div class="news">
+                        <div class="news-image">
+                            <a href=""><img src="" alt=""></a>
+                        </div>
+                        <div class="news-title">
+                            <a href=""><h3></h3></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="news">
+                        <div class="news-image">
+                            <a href=""><img src="" alt=""></a>
+                        </div>
+                        <div class="news-title">
+                            <a href=""><h3></h3></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="news">
+                        <div class="news-image">
+                            <a href=""><img src="" alt=""></a>
+                        </div>
+                        <div class="news-title">
+                            <a href=""><h3></h3></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="two-colums">
+                <div class="column">
+                    <div class="news">
+                        <div class="news-image">
+                            <a href=""><img src="" alt=""></a>
+                        </div>
+                        <div class="news-title">
+                            <a href=""><h3></h3></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="news">
+                        <div class="news-image">
+                            <a href=""><img src="" alt=""></a>
+                        </div>
+                        <div class="news-title">
+                            <a href=""><h3></h3></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="change-section">
+                <p>SMI</p>
+
+            </div>
+                <div class="change-section">
+                    <p>CRÓNICA NEGRA</p>
+                </div> 
+            </div>
+        </main> 
+        
+        <footer>
+            
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+            WebFont.load({
+                google: {
+                    families: ['Roboto:400,700,700i', 'Roboto:400' , 'Roboto condensed']
+                }
+            });        
+        </script>
+    </body>
+</html>

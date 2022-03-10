@@ -1,0 +1,272 @@
+
+/*====================
+===== Structure =====
+======================*/
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1001;
+}
+
+main{
+    margin: 0 auto;
+    position: relative;
+    top: 30vh;
+    width: 90%;
+}
+
+/*====================
+===== Columns =====
+======================*/
+
+.desktop-one-column{
+    width: 100%;
+}
+
+.desktop-one-column .column{
+    width: 100%;
+}
+
+.desktop-two-columns{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desktop-four-columns{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.desktop-four-columns .column{
+    width: 24%;
+}
+
+.two-columns{
+    display: flex;
+    justify-content: space-between;
+}
+/*====================
+===== Typography =====
+======================*/
+
+h1, h2, h3, h4, h5, h6, a, p{
+    color: hsl(0, 0%, 0%);
+}
+
+h1, h2, h3, h4 {
+    font-family: "Roboto";
+}
+
+h5, h6 {
+    font-family: "Roboto";
+}
+
+a, td, p, button, li{
+    font-family: "Roboto";
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+h4 {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a {
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+a:focus, a:hover {
+    outline: none;
+    outline-offset: 0;
+    text-decoration: none;
+}
+
+
+/*====================
+===== image =====
+======================*/
+img{
+    width: 100%;
+}
+
+/*====================
+===== header =====
+======================*/
+
+
+.top-bar{
+    background-color: hsl(0, 0%, 90%);
+    display: flex;     
+    width: 90%;
+    padding: 0.5rem 5%;
+    justify-content: space-between;
+}
+
+.top-bar-left{ 
+    display: flex;        
+}
+
+.top-bar-left ul{
+    display: flex;
+    gap: .3rem;
+    margin: auto 0;    
+}
+    
+.top-bar-left ul li:first-child{
+    color: hsl(0, 100%, 50%);
+    font-weight: 700;
+}
+
+.top-bar-left ul li{
+    color: black;
+    font-size: 0.8rem;
+}
+
+.top-bar-left ul li a, .top-bar-right ul li a{
+    font-weight: 100;
+}
+
+.top-bar-left li:not(:last-child) a::after {
+    content: "-";
+    padding-left: 0.5rem;
+    color: #aaa;   
+}
+
+.top-bar-right li:not(:last-child) a::after {
+    content: "|";
+    padding-left: 0.5rem;    
+}
+
+.top-bar-right ul{
+    display: flex;  
+    gap: .5rem;  
+    font-weight: 300;
+}
+
+.top-bar-right ul li{ 
+    font-size: 0.7rem;    
+    font-weight: 300;
+}
+
+.title{
+    background-color: #cd0000;    
+    justify-content: space-between;
+    height: 7vh;
+    width: 90%;
+    padding: 1rem 5%;
+    display: flex;
+}
+
+.hamburguer{     
+    display: inline;   
+    align-self: center;
+}
+
+.hamburguer svg{
+    width: 3rem;
+    height: 3rem;    
+}
+
+.trade-mark{
+    display: inline;
+    margin: 0.7rem 0 0 7rem;
+}
+
+.trade-mark svg{
+    fill: hsl(0, 0%, 100%);
+    width: 19rem;
+}
+
+.login-menu{
+    gap: 0.5rem;
+    color:black;
+    align-self: center;    
+}
+
+.login{
+    padding: .5rem .5rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: .25rem;        
+    display: inline;
+    margin: 0.5rem;
+    font-size: .85rem;
+    font-weight: 400;
+    size-adjust: content;
+}
+
+.login svg{
+    display: inline;    
+    overflow: hidden;
+    vertical-align: middle;
+    width: 2rem;
+}
+
+.login span, .new-member span{
+    display: inline;    
+    color: black;
+    vertical-align: middle;
+}
+
+.new-member{
+    padding: 0.5rem .5rem;
+    background-color: hsl(47, 100%, 50%);
+    border-radius: .25rem;
+    display: inline;
+    font-family: "Times New Roman",Times,serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.scroller{
+    padding: .2rem;
+}
+
+.bar-menu{
+    display: flex;
+    background-color: hsl(0, 0%, 90%);
+    justify-content: space-between;   
+    width: 90%;
+    padding: 0 5%;
+    margin-bottom: .2rem;   
+}
+
+.bar-menu .element{
+    margin: auto;        
+}
+
+.bar-menu .element.search svg{
+    height: 1em;
+    width: 1em;
+}
+
+.bar-menu svg{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+
+
+/*====================
+======= main =========
+======================*/
+
